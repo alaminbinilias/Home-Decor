@@ -1,7 +1,8 @@
 import React from "react";
+import { NavLink } from "react-router";
+
 
 const Navber = () => {
-
 
   return (
     <div>
@@ -30,33 +31,35 @@ const Navber = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <a>Item 1</a>
+                <NavLink to='/' className='font-semibold text-[1rem]'>Home</NavLink>
               </li>
               <li>
-                <a>Item 2</a>
+                <NavLink to='/products' className='font-semibold text-[1rem]'>Products</NavLink>
               </li>
               <li>
-                <a>Item 3</a>
+                <NavLink className='font-semibold text-[1rem]'>WishList</NavLink>
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">HomeDecor</a>
-        </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Item 2</a>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
-          </ul>
+          <NavLink to='/' className="btn btn-ghost text-xl font-bold">HomeDecor</NavLink>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+
+          <div className="navbar-center hidden lg:flex gap-2">
+            <ul className="menu menu-horizontal px-1">
+              <li>
+                <NavLink className='font-semibold text-[1rem]'>Home</NavLink>
+              </li>
+              <li>
+                <NavLink to='/products' className='font-semibold text-[1rem]'>Products</NavLink>
+              </li>
+              <li>
+                <NavLink className='font-semibold text-[1rem]'>WishList</NavLink>
+              </li>
+            </ul>
+          </div>
+
+          <a className="btn font-bold ml-3 mr-3">Visit Shop</a>
         </div>
       </div>
     </div>

@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Wooden Sofa",
+    "category": "Sofa",
+    "price": 450,
+    "stock": 12,
+    "material": "Oak Wood",
+    "color": "Brown",
+    "image": "https://i.postimg.cc/fy3R2p71/sofa.jpg",
+    "description": "The Wooden Sofa is designed to provide both comfort and durability while adding a stylish touch to your living room. Built with a strong oak wood frame, it offers excellent stability and long lasting performance. The natural brown finish highlights the beauty of the wood grain and blends well with both modern and traditional home decor. Thick foam cushions provide soft and supportive seating for relaxing, reading, or entertaining guests. The upholstery is durable and easy to maintain, making it suitable for everyday family use. Its elegant design, sturdy structure, and comfortable seating make this sofa a perfect centerpiece for any living space."
+  },
+  {
+    "id": 2,
+    "name": "Dining Table",
+    "category": "Table",
+    "price": 650,
+    "stock": 8,
+    "material": "Teak Wood",
+    "color": "Dark Brown",
+    "image": "https://i.postimg.cc/MpR0vrB8/11-7.jpg",
+    "description": "The Dining Table is crafted from high quality teak wood to ensure durability and timeless style. The spacious tabletop provides enough room for family meals, gatherings, and special occasions. Its rich dark brown finish highlights the natural wood grain while adding elegance to any dining room. The sturdy legs provide excellent stability and balance for daily use. The smooth surface makes cleaning quick and easy after meals. Designed to complement different types of dining chairs, this table fits well in both modern apartments and traditional homes. With its strong construction and beautiful design, this dining table creates a welcoming place for families to enjoy meals together."
+  },
+  {
+    "id": 3,
+    "name": "Lounge Chair",
+    "category": "Chair",
+    "price": 120,
+    "stock": 25,
+    "material": "Fabric",
+    "color": "Grey",
+    "image": "https://i.postimg.cc/rpVdMhCQ/chair.jpg",
+    "description": "The Lounge Chair offers a comfortable and relaxing seating experience with a modern appearance. Upholstered with soft grey fabric, the chair provides a breathable and cozy seating surface suitable for extended use. The internal frame is designed to be strong and durable while maintaining a lightweight structure that makes it easy to move around the home. Thick foam padding in the seat and backrest provides excellent support for the body. The neutral grey color blends easily with different interior styles including modern, minimalist, and contemporary decor. Ideal for living rooms, bedrooms, or reading corners, this chair combines comfort, style, and practicality."
+  },
+  {
+    "id": 4,
+    "name": "Queen Bed",
+    "category": "Bed",
+    "price": 780,
+    "stock": 6,
+    "material": "Solid Wood",
+    "color": "Walnut",
+    "image": "https://i.postimg.cc/59Y3FmDn/bed.jpg",
+    "description": "The Queen Bed frame is constructed from high quality solid wood to provide durability and strong mattress support. Its walnut finish enhances the natural beauty of the wood while adding warmth and elegance to the bedroom. The sturdy slat system ensures proper weight distribution and improves airflow beneath the mattress for better sleeping comfort. The frame remains stable and quiet during use, helping create a peaceful sleeping environment. The simple headboard design complements both modern and classic bedroom styles. This bed frame is designed to fit standard queen size mattresses and offers a perfect balance of strength, style, and comfort."
+  },
+  {
+    "id": 5,
+    "name": "Coffee Table",
+    "category": "Table",
+    "price": 210,
+    "stock": 15,
+    "material": "Glass & Metal",
+    "color": "Black",
+    "image": "https://i.postimg.cc/wj6LF54C/table.jpg",
+    "description": "The Coffee Table is a modern furniture piece designed to enhance the look and functionality of your living room. It features a tempered glass tabletop supported by a strong metal frame for durability and stability. The transparent glass surface creates an open and spacious appearance that works well in both small and large living areas. This table is perfect for placing drinks, books, decorative items, or magazines while relaxing on the sofa. The sleek black metal base adds a contemporary touch to the design. Easy to clean and maintain, this coffee table combines style, practicality, and durability for everyday use."
+  },
+  {
+    "id": 6,
+    "name": "Office Desk",
+    "category": "Desk",
+    "price": 340,
+    "stock": 10,
+    "material": "Engineered Wood",
+    "color": "White",
+    "image": "https://i.postimg.cc/wxfC9FLQ/working-Tables.webp",
+    "description": "The Office Desk is designed to provide a comfortable and organized workspace for both home and office environments. Made from durable engineered wood, it offers a strong structure and a clean modern appearance. The wide tabletop provides enough space for laptops, monitors, documents, and office accessories. Its white finish brightens the room and complements contemporary interior designs. The desk is built to support daily work activities while maintaining stability and durability. Whether used for studying, professional work, or creative projects, this desk helps improve productivity and organization while adding a stylish element to the workspace."
+  },
+  {
+    "id": 7,
+    "name": "Bookshelf Tier",
+    "category": "Storage",
+    "price": 190,
+    "stock": 14,
+    "material": "Pine Wood",
+    "color": "Natural",
+    "image": "https://i.postimg.cc/fLKh7N34/book.webp",
+    "description": "The five tier bookshelf is a practical storage solution designed to organize books, decorations, and personal items. Made from strong pine wood, it provides durability while maintaining a natural and warm appearance. The vertical design maximizes storage capacity while saving floor space, making it ideal for smaller rooms or apartments. Each shelf provides enough room for books, plants, photo frames, and decorative accessories. The natural wood finish blends easily with modern, rustic, or traditional interior designs. This bookshelf helps keep your home organized while adding a simple yet stylish decorative element to the room."
+  },
+  {
+    "id": 8,
+    "name": "Wardrobe Door",
+    "category": "Storage",
+    "price": 920,
+    "stock": 5,
+    "material": "Teak Wood",
+    "color": "Mahogany",
+    "image": "https://i.postimg.cc/tJwvWSzy/door.webp",
+    "description": "The three door wardrobe offers spacious storage for clothing, accessories, and personal belongings. Built from durable teak wood, it provides excellent strength and long term reliability. The interior includes hanging rods and multiple shelves that help organize clothes neatly and efficiently. Its mahogany finish adds elegance while protecting the wood surface from everyday wear. The wardrobe doors open smoothly and provide easy access to stored items. Perfect for bedrooms that require additional storage space, this wardrobe combines functionality with a sophisticated design that enhances the overall look of the room."
+  },
+  {
+    "id": 9,
+    "name": "Kitchen Cabinet",
+    "category": "Cabinet",
+    "price": 280,
+    "stock": 11,
+    "material": "MDF",
+    "color": "Black",
+    "image": "https://i.postimg.cc/BbKkYfbb/kitchen-cabinet.jpg",
+    "description": "The Kitchen Cabinet provides a practical storage solution for kitchen tools, dishes, and cooking supplies. Made from durable MDF material, it offers a strong and reliable structure for daily use. The modern black finish gives the cabinet a sleek appearance that fits well in contemporary kitchens. Multiple compartments help organize items efficiently while keeping the kitchen neat and clutter free. The cabinet doors open smoothly and provide easy access to stored items. Designed for functionality and style, this cabinet helps maximize storage space while maintaining a clean and organized kitchen environment."
+  },
+  {
+    "id": 10,
+    "name": "Dining Chair",
+    "category": "Chair",
+    "price": 240,
+    "stock": 18,
+    "material": "Wood & Fabric",
+    "color": "Beige",
+    "image": "https://i.postimg.cc/RZXsTZdc/dining.jpg",
+    "description": "The Dining Chair combines comfort and durability to enhance your dining experience. Built with a sturdy wooden frame, it offers strong support and long lasting reliability. The padded fabric seat provides comfortable seating during meals and family gatherings. Its beige upholstery adds a soft and elegant look that blends easily with various dining table designs. The chair’s balanced structure ensures stability while maintaining a lightweight design for easy movement. Ideal for both modern and traditional dining rooms, this chair provides a perfect combination of comfort, style, and practicality."
+  },
+  {
+    "id": 11,
+    "name": "King Bed",
+    "category": "Bed",
+    "price": 980,
+    "stock": 4,
+    "material": "Solid Wood",
+    "color": "Espresso",
+    "image": "https://i.postimg.cc/cHYBPx76/king-bed.jpg",
+    "description": "The King Bed frame is designed for spacious bedrooms and luxurious sleeping comfort. Constructed from solid wood, it provides exceptional strength and stability. The espresso finish enhances the elegance of the wood while complementing modern bedroom interiors. Its strong slat system ensures proper mattress support and long lasting durability. The wide frame allows plenty of sleeping space for couples or individuals who prefer extra room. Designed with both style and comfort in mind, this bed frame offers a sophisticated look while providing a stable and supportive foundation for restful sleep."
+  },
+  {
+    "id": 12,
+    "name": "Round Table",
+    "category": "Table",
+    "price": 180,
+    "stock": 13,
+    "material": "Wood",
+    "color": "Oak",
+    "image": "https://i.postimg.cc/XNkw5DQF/round-Table.jpg",
+    "description": "The Round Table features a compact and elegant design that works perfectly in living rooms, dining spaces, or small apartments. Crafted from strong oak wood, it offers durability while showcasing the natural beauty of the wood grain. The round shape allows better movement around the table and makes it suitable for smaller spaces. Its sturdy base provides excellent balance and support. The smooth wooden surface is easy to clean and maintain. With its simple yet stylish appearance, this table adds both functionality and decorative value to your home."
+  },
+  {
+    "id": 13,
+    "name": "Sofa Chair",
+    "category": "Chair",
+    "price": 520,
+    "stock": 7,
+    "material": "Leather",
+    "color": "Black",
+    "image": "https://i.postimg.cc/1RBqXV3K/sofa-chairs.webp",
+    "description": "The Sofa Chair is designed to provide premium comfort with a modern and luxurious appearance. Upholstered with high quality leather, it offers a smooth and durable seating surface. The reclining feature allows users to adjust the chair position for maximum relaxation. The sturdy internal frame ensures stability and long lasting performance. Its sleek black design fits well in modern living rooms, offices, or entertainment spaces. Perfect for relaxing, watching movies, or reading, this chair combines comfort, elegance, and durability."
+  },
+  {
+    "id": 14,
+    "name": "Patio Chair",
+    "category": "Chair",
+    "price": 150,
+    "stock": 16,
+    "material": "Rattan",
+    "color": "Brown",
+    "image": "https://i.postimg.cc/8PqPzTMd/garden-chair.avif",
+    "description": "The Patio Chair is designed for outdoor comfort and durability. Made from weather resistant rattan material, it is perfect for patios, gardens, balconies, and outdoor seating areas. The strong frame provides stability while the woven rattan design allows airflow for comfortable seating. Its natural brown color blends beautifully with outdoor environments and garden furniture. Lightweight yet sturdy, the chair can be moved easily when needed. Ideal for relaxing outdoors, enjoying coffee, or entertaining guests, this patio chair combines style, comfort, and durability."
+  },
+  {
+    "id": 15,
+    "name": "Study Desk",
+    "category": "Desk",
+    "price": 300,
+    "stock": 9,
+    "material": "Oak Wood",
+    "color": "Natural",
+    "image": "https://i.postimg.cc/8CwSMGJq/desk.jpg",
+    "description": "The Study Desk is designed to provide a comfortable and organized workspace for studying, writing, or working from home. Made from durable oak wood, it offers strength and a natural aesthetic that enhances the room’s appearance. The wide tabletop provides enough space for books, laptops, and study materials. Its sturdy legs ensure stability while working. The natural wood finish blends well with modern or traditional room designs. Perfect for students and professionals, this desk helps create a productive and comfortable working environment."
+  },
+  {
+    "id": 16,
+    "name": "Leather Sofa",
+    "category": "Sofa",
+    "price": 1250,
+    "stock": 3,
+    "material": "Genuine Leather",
+    "color": "Dark Brown",
+    "image": "https://i.postimg.cc/rpYq7cy2/91Tt-AQLlzb-L-AC-SL400.jpg",
+    "description": "The Leather Sofa offers luxury, comfort, and durability for modern living spaces. Upholstered with genuine leather, it provides a smooth and premium seating experience. The strong internal frame ensures long lasting performance while thick cushions provide excellent comfort and support. Its dark brown finish adds a sophisticated look that complements elegant interior designs. The sofa is designed for relaxation and social gatherings, offering enough seating space for family members or guests. Easy to maintain and highly durable, this leather sofa is an ideal choice for those seeking both comfort and style."
+  }
+]
