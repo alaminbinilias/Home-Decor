@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router";
-
+import "./Nav.css"
 
 const Navber = () => {
 
@@ -31,7 +31,7 @@ const Navber = () => {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li>
-                <NavLink to='/' className='font-semibold text-[1rem]'>Home</NavLink>
+                <NavLink to='/' className='font-semibold text-[1rem] px-2'>Home</NavLink>
               </li>
               <li>
                 <NavLink to='/products' className='font-semibold text-[1rem]'>Products</NavLink>

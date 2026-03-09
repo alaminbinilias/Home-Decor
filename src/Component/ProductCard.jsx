@@ -18,7 +18,7 @@ const ProductCard = ({ product }) => {
                         <p className='font-medium text-[1.2rem]'>Price: <span className='font-mono'>${price}</span></p>
                         <div className="card-actions justify-end">
                             <div>
-                                <NavLink className="btn border-[#778ca3] bg-[#b8e994] text-black font-semibold">View Details</NavLink>
+                                <NavLink to={`/product/details/${product.id}`} className="btn border-[#778ca3] bg-[#b8e994] text-black font-semibold">View Details</NavLink>
                             </div>
                         </div>
                     </div>
