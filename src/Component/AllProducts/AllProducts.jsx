@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import useProduct from '../../UseProduct/UseProduct';
 import ProductCard from '../ProductCard';
 import SearchNotFound from '../SearchNotFound/SearchNotFound';
+import useProduct from '../../useProduct/useProduct';
 
 const AllProducts = () => {
 
@@ -29,7 +29,7 @@ const AllProducts = () => {
             <div className='flex items-center justify-between mb-5'>
                 <div className='flex gap-2 items-end font-mono'>
                     <p className='font-bold text-2xl font-mono'>All Products</p>
-                    <p className='hidden md:block lg:block'>(Found {FilteredData.length} items)</p>
+                    <p className='hidden text-gray-400 md:block lg:block'>(Found {FilteredData.length} items)</p>
                 </div>
                 <div>
                     <label className="input w-40 lg:w-65 ">

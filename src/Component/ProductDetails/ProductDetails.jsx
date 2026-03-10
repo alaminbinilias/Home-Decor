@@ -1,11 +1,29 @@
-import React from 'react'
+import React from "react";
+import useProduct from "./../../useProduct/useProduct";
+import { useParams } from "react-router";
+import ProductDeatilPage from "../ProductDeatilPage/ProductDeatilPage";
 
 const ProductDetails = () => {
-    return (
-        <div>
-            <p>This is product Details Page</p>
-        </div>
-    )
-}
+  const { id } = useParams();
+  const products = useProduct();
+  console.log(products);
+  //console.log(id)
+  const convrtId = parseInt(id);
+  //console.log(convrtId)
 
-export default ProductDetails
+  const specificData = products.filter((product) => product.id === convrtId);
+
+  //console.log(specificData)
+
+  return (
+    <div>
+      <div className="border-2 border-gray-400 rounded-xl">
+        {
+          specificData.map(data=><ProductDeatilPage key={id} data={data} ></ProductDeatilPage>)
+        }
+      </div>
+    </div>
+  );
+};
+
+export default ProductDetails;

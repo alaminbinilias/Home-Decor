@@ -7,7 +7,7 @@ const useProduct =()=>{
     const [products,setproducts]=useState([]);
 
     useEffect(()=>{
-        axios('../Data/data.json').then(data=>setproducts(data.data));
+        axios('../../Data/data.json').then(data=>setproducts(data.data));
     },[])
 
     return products;
