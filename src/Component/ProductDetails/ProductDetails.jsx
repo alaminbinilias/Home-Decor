@@ -6,7 +6,7 @@ import ProductDeatilPage from "../ProductDeatilPage/ProductDeatilPage";
 const ProductDetails = () => {
   const { id } = useParams();
   const products = useProduct();
-  console.log(products);
+  //console.log(products);
   //console.log(id)
   const convrtId = parseInt(id);
   //console.log(convrtId)

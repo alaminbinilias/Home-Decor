@@ -1,7 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 const ProductDeatilPage = ({ data }) => {
-  console.log(data);
+  //console.log(data);
+  const navigate=useNavigate();
+  const BackHandle =()=>{
+    console.log("Clicked");
+    navigate(-1);
+  }
   return (
     <div>
       <div className="flex-row gap-5 lg:flex p-3">
@@ -22,10 +28,13 @@ const ProductDeatilPage = ({ data }) => {
             {data.description}
           </p>
 
-          <div className="flex justify-end items-center">
+          <div className="flex justify-start items-center">
             <button className="btn px-7 btn-primary mt-4">WishList</button>
           </div>
         </div>
+      </div>
+      <div className="flex justify-end px-2">
+        <button onClick={BackHandle} className="btn btn-success btn-outline mb-4">Go Back</button>
       </div>
     </div>
   );
