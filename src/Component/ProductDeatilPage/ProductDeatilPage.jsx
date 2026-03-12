@@ -4,15 +4,15 @@ import setData from "../../Utility/Utility";
 
 const ProductDeatilPage = ({ data }) => {
   //console.log(data.id);
-  const navigate=useNavigate();
-  const BackHandle =()=>{
+  const navigate = useNavigate();
+  const BackHandle = () => {
     //console.log("Clicked");
     navigate(-1);
   }
 
   //WishList Handle
 
-  const HandleWish=()=>{
+  const HandleWish = () => {
     setData(data);
   }
 
@@ -21,15 +21,19 @@ const ProductDeatilPage = ({ data }) => {
 
   return (
     <div>
-      <div className="flex-row gap-5 lg:flex p-3">
-        <div className="w-full">
-          <img className=" h-100 w-full lg:w-300 rounded-xl" src={data.image}></img>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 lg:flex p-3">
+        <div>
+          <img className=" h-100 w-full lg:w-200 rounded-xl" src={data.image}></img>
         </div>
         <div className="p-5 w-full">
-          <p className="font-bold font-mono text-3xl mb-2">{data.name}</p>
-          <p className="font-medium font-mono text-xl border-b-2 w-full lg:w-200 pb-2 border-gray-400">
-            Catagory: {data.category}
-          </p>
+          <div>
+            <p className="font-bold font-mono text-3xl mb-2">{data.name}</p>
+            <p className="font-medium  font-mono text-xl w-full pb-2 border-gray-400">
+              Catagory: {data.category}
+              <div className="border border-gray-300 mt-2 ">
+              </div>
+            </p>
+          </div>
 
           <p className="text-justify">
             <span className="mt-4 text-[1.1rem] font-medium mr-1">

@@ -1,7 +1,15 @@
 import React from "react";
-
 import deleteIcon from "../../Images/delete.png"
+
+
+
 const WishListCard = ({ item }) => {
+
+
+  const HandleDeleteBtn=(id)=>{
+    console.log(id);
+  }
+
   return (
     <div>
       <div className="flex justify-between items-center border-gray-400 rounded-2xl border-2 px-2 mb-5">
@@ -18,12 +26,12 @@ const WishListCard = ({ item }) => {
             <p className="font-mono font-medium text-[1.2rem]">
               {item.material}
             </p>
-            <p className="font-mono font-medium text-[1.2rem]">{item.color}</p>
+            <p className="font-mono font-semibold text-[1.2rem]">Price:${item.price}</p>
           </div>
         </div>
 
         {/* Right Section */}
-        <div>
+        <div onClick={HandleDeleteBtn}>
             <img className="w-7  mr-5 cursor-pointer" src={deleteIcon}></img>
         </div>
 

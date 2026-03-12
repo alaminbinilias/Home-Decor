@@ -12,7 +12,7 @@ const WishList = () => {
             {/* wishlist Section */}
             <div>
                 {
-                    data.map(item=><WishListCard item={item}></WishListCard>)
+                    data.map((item)=><WishListCard key={item.id} item={item}></WishListCard>)
                 }
             </div>
         </div>
