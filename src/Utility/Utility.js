@@ -1,4 +1,4 @@
-const getDataLS = () => {
+ export const getDataLS = () => {
   const GetLocalStorage = localStorage.getItem("WishList");
   if (GetLocalStorage) {
     const ParseData = JSON.parse(GetLocalStorage);
@@ -11,7 +11,7 @@ const getDataLS = () => {
 const setData = (data) => {
   const Data = getDataLS();
   //console.log(data);
-  console.log(data.id);
+  //console.log(data.id);
   let Isdata;
   {
     Isdata=Data.some(item=>item.id===data.id);
