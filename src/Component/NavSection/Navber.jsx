@@ -37,24 +37,24 @@ const Navber = () => {
                 <NavLink to='/products' className='font-semibold text-[1rem]'>Products</NavLink>
               </li>
               <li>
-                <NavLink className='font-semibold text-[1rem]'>WishList</NavLink>
+                <NavLink to='/wishlist' className='font-semibold text-[1rem]'>WishList</NavLink>
               </li>
             </ul>
           </div>
           <NavLink to='/' className="btn btn-ghost text-xl font-bold">HomeDecor</NavLink>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end ">
 
-          <div className="navbar-center hidden lg:flex gap-2">
+          <div className="navbar-center hidden lg:flex gap-2 mr-2">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <NavLink className='font-semibold text-[1rem]'>Home</NavLink>
+                <NavLink to='/' className='font-semibold text-[1rem]'>Home</NavLink>
               </li>
               <li>
                 <NavLink to='/products' className='font-semibold text-[1rem]'>Products</NavLink>
               </li>
               <li>
-                <NavLink className='font-semibold text-[1rem]'>WishList</NavLink>
+                <NavLink to='/wishlist' className='font-semibold text-[1rem]'>WishList</NavLink>
               </li>
             </ul>
           </div>

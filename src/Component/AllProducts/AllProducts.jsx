@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import ProductCard from '../ProductCard';
 import SearchNotFound from '../SearchNotFound/SearchNotFound';
-import useProduct from '../../useProduct/useProduct';
-
+import useProduct from '../../UseProduct/UseProduct';
 const AllProducts = () => {
 
     const products = useProduct();
