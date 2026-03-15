@@ -1,14 +1,14 @@
 import React from "react";
-import deleteIcon from "../../Images/delete.png"
+import deleteIcon from "../../Images/delete.png";
+import { updateData } from "../../Utility/Utility";
+
+const WishListCard = ({item}) => {
 
 
-
-const WishListCard = ({ item }) => {
-
-
-  const HandleDeleteBtn=(id)=>{
-    console.log(id);
+  const HandleDeleteWish=(id)=>{
+    updateData(id);
   }
+
 
   return (
     <div>
@@ -20,21 +20,18 @@ const WishListCard = ({ item }) => {
           </div>
           <div>
             <p className="font-bold text-xl">{item.name}</p>
-            <p className="font-mono font-medium text-[1.2rem]">
-              {item.category}
+            <p className="font-mono font-medium text-[1.2rem]">{item.category}</p>
+            <p className="font-mono font-medium text-[1.2rem]">{item.material}</p>
+            <p className="font-mono font-semibold text-[1.2rem]">
+              Price:$ {item.price}
             </p>
-            <p className="font-mono font-medium text-[1.2rem]">
-              {item.material}
-            </p>
-            <p className="font-mono font-semibold text-[1.2rem]">Price:${item.price}</p>
           </div>
         </div>
 
         {/* Right Section */}
-        <div onClick={HandleDeleteBtn}>
-            <img className="w-7  mr-5 cursor-pointer" src={deleteIcon}></img>
+        <div>
+          <img onClick={()=>HandleDeleteWish(item.id)} className="w-7  mr-5 cursor-pointer" src={deleteIcon}></img>
         </div>
-
       </div>
     </div>
   );

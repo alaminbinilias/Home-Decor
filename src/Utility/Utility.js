@@ -25,4 +25,14 @@ const setData = (data) => {
   }
 };
 
+ export const updateData=(id)=>{
+  const getWishData=getDataLS();
+
+  const filterData=getWishData.filter(item=>item.id!==id);
+
+  //console.log(filterData)
+  localStorage.setItem('WishList',JSON.stringify(filterData))
+
+}
+
 export default setData;
